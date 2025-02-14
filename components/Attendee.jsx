@@ -56,7 +56,7 @@ const Attendee = ({ onNext, onPrev,}) => {
 
     try {
       const response = await axios.post(
-        "https://api.cloudinary.com/v1_1/dxobapn0s/image/upload",
+        process.env.REACT_APP_CLOUDINARY_API,
         imageFormData
       );
       console.log("Image Upload Response:", response.data);
