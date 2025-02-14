@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+
 import Tickets from "../public/images/TICKET.svg"
 import Barcode from 'react-barcode'
 
